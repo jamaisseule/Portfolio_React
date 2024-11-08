@@ -9,7 +9,7 @@ const Hero = () => {
     <h1>Hi, It's Ngan Truong,</h1>
     <p>I am frontend developer based in Vietnam.</p>
     <div className="hero-action">
-      <a href="#about" className="hero-connect">
+      <a href="#about" className="hero-about">
       <div >
             About Me
         </div>

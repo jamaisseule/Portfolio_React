@@ -1,38 +1,65 @@
 .interest {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 25px;
+  margin: 50px 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
 }
 
-.about-interests {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 80px;
+.interest-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+  margin-top: 30px;
 }
 
-.about-interest {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    transition: 0.5s;
+.interest-about {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 80px;
+  margin-top: 30px;
 }
 
-.about-interest .icon{
-    color: brown;
-    font-size: 55px;
-    margin-right: 10px;
-    transition: transform 0.3s ease;
-
+.interest-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: 0.5s;
 }
 
-.about-interest .icon:hover {
-    transform: scale(1.2);
+.interest-item .icon {
+  color: brown;
+  font-size: 55px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.interest-item .icon:hover {
+  transform: scale(1.2);
+}
+
+.interest-item p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .interest-about {
+    justify-content: space-between;
+    gap: 70px;
+    margin: 20px 70px;
   }
-
-  .about-interest p{
-    font-size: 22px;
-    font-weight: 500;
+  .interest-item {
+    gap: 10px;
+  }
+  .interest-title h1 {
+    font-size: 50px;
+    padding: 0;
+  }
+  .interest-item p {
+    text-align: center;
+    font-size: 16px;
+  }
 }
