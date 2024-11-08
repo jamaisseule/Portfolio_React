@@ -1,0 +1,38 @@
+.interest {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-interests {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.about-interest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.about-interest .icon{
+    color: brown;
+    font-size: 55px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+.about-interest .icon:hover {
+    transform: scale(1.2);
+  }
+
+  .about-interest p{
+    font-size: 22px;
+    font-weight: 500;
+}

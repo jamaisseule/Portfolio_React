@@ -9,12 +9,12 @@ const Hero = () => {
     <h1>Hi, It's Ngan Truong,</h1>
     <p>I am frontend developer based in Vietnam.</p>
     <div className="hero-action">
-        <div className="hero-connect">
-            Connect with me
+      <a href="#about" className="hero-connect">
+      <div >
+            About Me
         </div>
-        <div className="hero-resume">
-            My resume
-        </div>
+      </a>
+       
     </div>
 </div>
   )
