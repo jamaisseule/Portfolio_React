@@ -47,19 +47,23 @@
 
 @media (max-width: 768px) {
   .interest-about {
-    justify-content: space-between;
-    gap: 70px;
-    margin: 20px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
   }
   .interest-item {
     gap: 10px;
   }
   .interest-title h1 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 0;
   }
   .interest-item p {
     text-align: center;
     font-size: 16px;
+  }
+  .interest-about hr{
+    width: 100px;
   }
 }
