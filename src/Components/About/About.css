@@ -103,10 +103,10 @@ div img {
     gap: 20px;
     align-items: center;
   }
-  .about-skill p{
+  .about-skill p {
     font-size: 20px;
   }
-  .about-skill hr{
+  .about-skill hr {
     height: 6px;
   }
 }
